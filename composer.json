@@ -1,0 +1,34 @@
+{
+    "name": "yahaay-labs/bamboohr",
+    "type": "library",
+    "keywords": [
+    	"bamboo",
+    	"bambooHR"
+    ],
+    "homepage": "https://github.com/YahaayLabs/php-bamboohr",
+    "support": {
+		"issues": "https://github.com/jeffreyhyer/php-bamboohr/issues",
+		"source": "https://github.com/jeffreyhyer/php-bamboohr"
+	},
+	"version": "0.1",
+    "license": "MIT",
+    "description": "PHP SDK for the BambooHR API",
+    "authors": [
+        {
+            "name": "Gerald Villacarlos",
+            "email": "gerald@yahaay.com",
+            "homepage": "https://www.yahaay.com",
+            "role": "Main Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+        	"BambooHR\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
